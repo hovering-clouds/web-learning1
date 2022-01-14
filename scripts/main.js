@@ -16,7 +16,7 @@ let myHeading = document.querySelector('.welcome');
 function setUserName() {
     let myName = prompt('请输入你的名字:(放心，所有数据只会存在于你本地浏览器)');
     if(!myName || myName === null) {
-        myname = '游客'
+        myName = '游客'
     }    
     localStorage.setItem('name', myName);
     myHeading.textContent = 'welcome, ' + myName;
