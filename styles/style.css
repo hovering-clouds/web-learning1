@@ -39,3 +39,15 @@ img{
     height: 500px;
     border: 1px solid black;
 }
+
+.click{
+    padding:20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.welcome{
+    padding:20px;
+    font-size: 30px;
+    text-align: left;
+}
