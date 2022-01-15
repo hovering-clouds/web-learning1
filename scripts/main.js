@@ -4,6 +4,7 @@ myImage.onclick = function(){
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/luster-dawn.png'){
         myImage.setAttribute('src','images/luster-dawn2.png');
+        alert("luster-dawn:嘿~嘿~不要这样啦~")
     }
     else{
         myImage.setAttribute('src','images/luster-dawn.png');

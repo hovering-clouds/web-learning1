@@ -48,6 +48,8 @@ img{
 
 .welcome{
     padding:20px;
+    border: 1px solid black;
+    width: auto;
     font-size: 30px;
     text-align: left;
 }
